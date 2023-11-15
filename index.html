@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Manasvini Nittala's Portfolio Website </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Page Loader Start -->
+  <div class="page-loader">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <!-- Page Loader End -->
+
+ <!-- Background Circles Start -->
+ <div class="bg-circles">
+   <div class="circle-1"></div>
+   <div class="circle-2"></div>
+   <div class="circle-3"></div>
+   <div class="circle-4"></div>
+ </div>
+ <!-- Background Circles End -->
+
+<!-- Overlay Start -->
+<div class="overlay">
+</div>
+<!-- Overlay End -->
+
+<!-- Main Start -->
+<div class="main hidden">
+
+  <!-- Header Start -->
+  <header class="header">
+    <div class="container">
+      <div class="row flex-end">
+        <button type="button" class="nav-toggler">
+          <span></span>
+        </button>
+        <nav class="nav">
+          <div class="nav-inner">
+            <ul>
+              <li><a href="#home" class="nav-item link-item">home</a></li>
+              <li><a href="#about" class="nav-item link-item">about</a></li>
+              <li><a href="#portfolio" class="nav-item link-item">portfolio</a></li>
+              <li><a href="#skills" class="nav-item link-item">Skills</a></li>
+              <li><a href="#contact" class="nav-item link-item">contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- Header End -->
+
+  <!-- Home Section Start -->
+  <section class="home-section align-items-center" id="home">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="home-text">
+          <p>Hello, I'm</p>
+          <h1>Manasvini Nittala</h1>
+          <h2>a Computer Science Graduate Student</h2>
+          <a href="#about" class="btn link-item">more about me</a>
+          <a href="#portfolio" class="btn link-item">portfolio</a>
+        </div>
+        <div class="home-img">
+          <div class="img-box">
+            <img src="img/about-img.jpg" alt="profile-img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Home Section End -->
+
+  <!-- About Section Start -->
+  <section class="about-section sec-padding" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>about me</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="about-img">
+          <div class="img-box">
+            <img src="img/profile-img.jpg" alt="about img">
+          </div>
+        </div>
+        <div class="about-text">
+          <p style="text-align: justify;">Hello there! I'm a computer science graduate student at Rutgers University in New Jersey, USA.<span id="dots"></span><span id="more"><br> Stepping into the corporate realm with a zeal for full-stack development, data analysis, and the endless possibilities of machine learning and AI. I'm trying to collaborate with dynamic teams, concocting inventive solutions that shape the digital landscape. I'm eager to learn, grow, and embark on this thrilling expedition to shape my future. Join me in crafting the next chapter of innovation together.</span></p>
+          <button onclick="myFunction()" class="readbtn" id="myBtn">Read more</button>
+          <h3>Top Skills</h3>
+          <div class="skills">
+            <div class="skill-item">Web Development</div>
+            <div class="skill-item">Data Analysis</div>
+            <div class="skill-item">Database Management</div>
+            <div class="skill-item">Machine Learning</div>
+            <div class="skill-item">Deep Learning</div>
+            <div class="skill-item">Data Visualization</div>
+          </div>
+
+          <div class="about-tabs">
+            <button type="button" class="tab-item active" data-target="#education">education</button>
+            <button type="button" class="tab-item" data-target="#experience">experience</button>
+          </div>
+
+          <!-- Education Start -->
+          <div class="tab-content active" id="education">
+             <div class="timeline">
+               <div class="timeline-item">
+                 <span class="date">September 2022 - May 2024</span>
+                 <h4>Master of Science - <span>Rutgers University , New Brunswick</span></h4>
+                 <p style="text-align: justify;"><b>Major - </b>Computer Science <br> <strong>Cumulative GPA - </strong>3.91/4.0 <br> <strong> Relevant Coursework -  </strong> Data Structures and Algorithms, Mathematics for Data Science, Introduction to AI, Machine Learning, Computer Vision, Databases for Data Science, Software Engineering</p>
+               </div>
+               <div class="timeline-item">
+                <span class="date">August 2018 - July 2022</span>
+                <h4>Bachelor of Engineering - <span>Chaitanya Bharathi Institute of Technology, Hyderabad, India</span></h4>
+                <p style="text-align: justify;"><strong>Major - </strong>Electronics and Communication <br> <strong>Cumulative GPA - </strong>8.61 / 10.0 <br> <strong> Relevant Coursework -  </strong>  Mathematics, Programming for Problem Solving, Data Structures and Algorithms, Computer Architecture, Computer Networks, Database Management Systems, Principles and Applications of AI <br> <b>Activities - </b>Makers of India (President), Robotics and Innovation Club (Executive Board), IEEE Society (Member)</p>
+              </div>
+             </div>
+          </div>
+          <!-- Education End -->
+
+          <!-- Experience Start -->
+          <div class="tab-content" id="experience">
+            <div class="timeline">
+              <div class="timeline-item">
+                <span class="date">September 2022 - January 2023</span>
+                <h4>Teaching Assistant - <span>Rutgers University, New Brunswick</span></h4>
+                <ul>
+                  <li><p style="text-align: justify;">Catalyzed a deeper understanding of Discrete Structures.</p></li>
+                  <li><p style="text-align: justify;">Engineered an attendance tracking system that utilizes student IP addresses to ensure the authenticity of attendance records.</p></li>
+                </ul>
+              </div>
+              <div class="timeline-item">
+                <span class="date">March 2022 - July 2022</span>
+                <h4>SNOC CHM Intern - <span>Vodafone Idea Ltd., Hyderabad, India</span></h4>
+                <ul>
+                  <li><p style="text-align: justify;">Designed and implemented Base Station Controller decommissioning in Tamil Nadu, India, reducing downtime by 35% and enhancing network performance by 50%. </p></li>
+                  <li><p style="text-align: justify;">Managed database infrastructure to ensure data integrity and optimize performance, achieving a 30% reduction in server space consumption. </p></li>
+                  <li><p style="text-align: justify;">Collaborated with cross-functional teams, providing valuable insights for the overall optimization of network systems.</p></li>
+                </ul>
+              </div>
+              <div class="timeline-item">
+                <span class="date">May 2020 - June 2020</span>
+                <h4>Data Analyst Intern - <span>National Instruments and Cognibot, India</span></h4>
+                <ul>
+                  <li><p style="text-align: justify;">Applied a data-driven approach using Pandas, Seaborn, and Sklearn to create a predictive model for banking sector client subscriptions. </p></li>
+                  <li><p style="text-align: justify;">Achieved an 85% accuracy in forecasting term deposit subscriptions through a hybrid model.</p></li>
+                  <li><p style="text-align: justify;"> Empowered institutions with actionable insights for refined marketing and precise client targeting.</p></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Experience End -->
+          <a href="cv.pdf" target="_blank" class="btn">Download cv</a>
+          <a href="#contact" class="btn link-item">Contact me</a>
+          <a href="#portfolio" class="btn link-item">Portfolio</a>
+          <a href="#skills" class="btn link-item">Skills</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Section End -->
+
+  <!-- Skills Section Start-->
+  <section class="about-section sec-padding" id="skills">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Skills</h2>
+        </div>
+      </div>
+      </div>
+      </section>
+
+  <!-- Skills Section End-->
+
+  <!-- Portfolio Section Start -->
+  <section class="portfolio-section sec-padding" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>recent work</h2>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Portfolio Item Start -->
+        <div class="portfolio-item">
+          <div class="portfolio-item-thumbnail">
+            <img src="img/portfolio/1.jpg" alt="portfolio item thumb">
+          </div>
+          <h3 class="portfolio-item-title">education course website</h3>
+          <button type="button" class="btn view-project-btn">view project</button>
+          <div class="portfolio-item-details">
+            <div class="description">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis ab nobis eaque optio excepturi tempore, cumque porro ex natus repudiandae vero repellendus ipsa possimus illum quisquam hic vitae blanditiis, alias consequuntur? Necessitatibus ipsa ex fugit cupiditate a ea amet saepe.</p>
+            </div>
+            <div class="general-info">
+              <ul>
+                <li>Created - <span>4 Dec 2020</span></li>
+                <li>technologies used - <span>Html, Css</span></li>
+                <li>Role - <span>Frontend</span></li>
+                <li>View Online - <span><a href="#" target="_blank">www.domain.com</a></span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Portfolio Item End -->
+        <!-- Portfolio Item Start -->
+        <div class="portfolio-item">
+          <div class="portfolio-item-thumbnail">
+            <img src="img/portfolio/2.jpg" alt="portfolio item thumb">
+          </div>
+          <h3 class="portfolio-item-title">personal portfolio website</h3>
+          <button type="button" class="btn view-project-btn">view project</button>
+          <div class="portfolio-item-details">
+            <div class="description">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis ab nobis eaque optio excepturi tempore, cumque porro ex natus repudiandae vero repellendus ipsa possimus illum quisquam hic vitae blanditiis, alias consequuntur? Necessitatibus ipsa ex fugit cupiditate a ea amet saepe.</p>
+            </div>
+            <div class="general-info">
+              <ul>
+                <li>Created - <span>4 Dec 2020</span></li>
+                <li>technologies used - <span>Bootstrap 5</span></li>
+                <li>Role - <span>Frontend</span></li>
+                <li>View Online - <span><a href="#" target="_blank">www.domain.com</a></span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Portfolio Item End -->
+        <!-- Portfolio Item Start -->
+        <div class="portfolio-item">
+          <div class="portfolio-item-thumbnail">
+            <img src="img/portfolio/3.jpg" alt="portfolio item thumb">
+          </div>
+          <h3 class="portfolio-item-title">app landing page</h3>
+          <button type="button" class="btn view-project-btn">view project</button>
+          <div class="portfolio-item-details">
+            <div class="description">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis ab nobis eaque optio excepturi tempore, cumque porro ex natus repudiandae vero repellendus ipsa possimus illum quisquam hic vitae blanditiis, alias consequuntur? Necessitatibus ipsa ex fugit cupiditate a ea amet saepe.</p>
+            </div>
+            <div class="general-info">
+              <ul>
+                <li>Created - <span>4 Dec 2020</span></li>
+                <li>technologies used - <span>Html, Css, Bootstrap 4</span></li>
+                <li>Role - <span>Frontend</span></li>
+                <li>View Online - <span><a href="#" target="_blank">www.domain.com</a></span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Portfolio Item End -->
+        <!-- Portfolio Item Start -->
+        <div class="portfolio-item">
+          <div class="portfolio-item-thumbnail">
+            <img src="img/portfolio/4.jpg" alt="portfolio item thumb">
+          </div>
+          <h3 class="portfolio-item-title">restaurant website</h3>
+          <button type="button" class="btn view-project-btn">view project</button>
+          <div class="portfolio-item-details">
+            <div class="description">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis ab nobis eaque optio excepturi tempore, cumque porro ex natus repudiandae vero repellendus ipsa possimus illum quisquam hic vitae blanditiis, alias consequuntur? Necessitatibus ipsa ex fugit cupiditate a ea amet saepe.</p>
+            </div>
+            <div class="general-info">
+              <ul>
+                <li>Created - <span>4 Dec 2020</span></li>
+                <li>technologies used - <span>Html, Css, Javascript</span></li>
+                <li>Role - <span>Frontend</span></li>
+                <li>View Online - <span><a href="#" target="_blank">www.domain.com</a></span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Portfolio Item End -->
+        <!-- Portfolio Item Start -->
+        <div class="portfolio-item">
+          <div class="portfolio-item-thumbnail">
+            <img src="img/portfolio/5.jpg" alt="portfolio item thumb">
+          </div>
+          <h3 class="portfolio-item-title">personal portfolio website</h3>
+          <button type="button" class="btn view-project-btn">view project</button>
+          <div class="portfolio-item-details">
+            <div class="description">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis ab nobis eaque optio excepturi tempore, cumque porro ex natus repudiandae vero repellendus ipsa possimus illum quisquam hic vitae blanditiis, alias consequuntur? Necessitatibus ipsa ex fugit cupiditate a ea amet saepe.</p>
+            </div>
+            <div class="general-info">
+              <ul>
+                <li>Created - <span>4 Dec 2020</span></li>
+                <li>technologies used - <span>Html, Css, Javascript</span></li>
+                <li>Role - <span>Frontend</span></li>
+                <li>View Online - <span><a href="#" target="_blank">www.domain.com</a></span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Portfolio Item End -->
+        <!-- Portfolio Item Start -->
+        <div class="portfolio-item">
+          <div class="portfolio-item-thumbnail">
+            <img src="img/portfolio/6.jpg" alt="portfolio item thumb">
+          </div>
+          <h3 class="portfolio-item-title">product landing page</h3>
+          <button type="button" class="btn view-project-btn">view project</button>
+          <div class="portfolio-item-details">
+            <div class="description">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis ab nobis eaque optio excepturi tempore, cumque porro ex natus repudiandae vero repellendus ipsa possimus illum quisquam hic vitae blanditiis, alias consequuntur? Necessitatibus ipsa ex fugit cupiditate a ea amet saepe.</p>
+            </div>
+            <div class="general-info">
+              <ul>
+                <li>Created - <span>4 Dec 2020</span></li>
+                <li>technologies used - <span>Html, Css, Bootstrap 4</span></li>
+                <li>Role - <span>Frontend</span></li>
+                <li>View Online - <span><a href="#" target="_blank">www.domain.com</a></span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Portfolio Item End -->
+      </div>
+    </div>
+  </section>
+  <!-- Portfolio Section End -->
+
+  <!-- Contact Section Start -->
+  <section class="contact-section sec-padding" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Contact Me</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="contact-form">
+          <form id="contactForm">
+            <div class="row">
+              <div class="input-group">
+                <input type="text" placeholder="Name" class="input-control" id="nameInput" required>
+              </div>
+              <div class="input-group">
+                <input type="text" placeholder="Email" class="input-control" id="emailInput" required>
+              </div>
+              <div class="input-group">
+                <input type="text" placeholder="Subject" class="input-control" id="subjectInput" required>
+              </div>
+              <div class="input-group">
+                <textarea placeholder="Message" class="input-control" id="messageInput" required></textarea>
+              </div>
+              <div class="submit-btn">
+                <button type="submit" class="btn" id="sendMessageBtn">Send Message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        
+        <div class="contact-info">
+          <div class="contact-info-item">
+            <h3>Email</h3>
+            <p>manasvini_nittala@yahoo.com</p>
+          </div>
+          <div class="contact-info-item">
+            <h3>Phone</h3>
+            <p>+1 (609) 619 7061</p>
+          </div>
+          <div class="contact-info-item">
+            <h3>Connect with Me</h3>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/manasvini-nittala/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/Manasvini1106" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://instagram.com/_manasvini._?igshid=NzZlODBkYWE4Ng%3D%3D&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Section End -->
+
+</div>
+<!-- Main End -->
+
+<!-- Portfolio Item Details Popup Start -->
+<div class="portfolio-popup">
+  <div class="pp-inner">
+    <div class="pp-content">
+      <div class="pp-header">
+        <button type="button" class="btn pp-close"><i class="fas fa-times"></i></button>
+        <div class="pp-thumbnail">
+          <img src="img/portfolio/3.jpg" alt="pp-thumbnail">
+        </div>
+        <h3></h3>
+      </div>
+      <div class="pp-body">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Item Details Popup End -->
+
+<!-- CONTACT FORM -->
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      emailjs.init("opklSrk5pQWK4h63l");
+      var contactForm = document.getElementById("contactForm");
+      contactForm.addEventListener("submit", function (event) {
+          event.preventDefault();
+          var formData = {
+              name: document.getElementById("nameInput").value,
+              email: document.getElementById("emailInput").value,
+              subject: document.getElementById("subjectInput").value,
+              message: document.getElementById("messageInput").value
+          };
+          sendEmail(formData);
+      });
+  });
+
+  function sendEmail(formData) {
+      var serviceID = "service_vzxh46i";
+      var templateID = "template_5hfas3u";
+      emailjs.send(serviceID, templateID, formData)
+          .then(function (response) {
+              console.log("Email sent successfully:", response);
+              alert('Thank you for contacting me! You will receive a response in 2-3 business days!');
+              document.getElementById("contactForm").reset();
+          }, function (error) {
+              console.log("Failed to send email:", error);
+              alert('Failed to send email. Please try again later.');
+          });
+  }
+  </script>
+  
+
+<script src="js/script.js"></script>
+</body>
+</html>
